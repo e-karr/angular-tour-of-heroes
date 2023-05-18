@@ -13,6 +13,10 @@ export class HeroesComponent {
 
   constructor(private heroService: HeroService) {}
 
+  ngOnInit(): void {
+    this.getHeroes();
+  }
+
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
   }
