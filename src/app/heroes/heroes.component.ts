@@ -8,5 +8,5 @@ import { Hero } from '../hero';
   styleUrls: ['./heroes.component.css'],
 })
 export class HeroesComponent {
-  hero = HEROES;
+  heroes = HEROES;
 }
