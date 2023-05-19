@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root',
 })
 export class HeroService {
-  private heroesUrl = 'api/hereos';
+  private heroesUrl = 'api/heroes';
   constructor(
     private messageService: MessageService,
     private http: HttpClient
